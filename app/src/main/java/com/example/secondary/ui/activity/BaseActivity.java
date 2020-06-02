@@ -29,7 +29,6 @@ public abstract class BaseActivity extends AppCompatActivity {
 	protected abstract int getLayout();
 
 	@Override
-
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.setContentView(R.layout.title_root);

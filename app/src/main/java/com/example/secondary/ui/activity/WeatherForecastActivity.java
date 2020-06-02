@@ -12,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.secondary.R;
-import com.example.secondary.RequestUtilsProxy;
+import com.example.secondary.utils.RequestUtilsProxy;
 import com.example.secondary.json.CNWeatherJson;
 import com.example.secondary.ui.adapter.RVAdapter;
 

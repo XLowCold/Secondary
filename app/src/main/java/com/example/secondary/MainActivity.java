@@ -20,7 +20,7 @@ import androidx.viewpager.widget.ViewPager;
 
 public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener, ViewPager.OnPageChangeListener {
 
-	private static final String TAG = "MainActivity";
+	private static final String TAG = MainActivity.class.getSimpleName();
 	//控件
 	private ViewPager mMainViewPager;
 	private List<RadioButton> mRdoBtnMains;

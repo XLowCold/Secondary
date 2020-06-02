@@ -15,7 +15,7 @@ import okhttp3.Request;
 
 public abstract class RequestUtilsProxy<T>  {
 
-	private final String TAG = "ConnectNetWork";
+	private final String TAG = RequestUtilsProxy.class.getSimpleName();
 	private ResponseFailure mFailure;
 	private long mTimeOut = 10000;//超时时间 毫秒单位
 

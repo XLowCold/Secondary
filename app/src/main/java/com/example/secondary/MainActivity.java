@@ -18,7 +18,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener, ViewPager.OnPageChangeListener {
+public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener,
+		ViewPager.OnPageChangeListener {
 
 	private static final String TAG = MainActivity.class.getSimpleName();
 	//控件
@@ -116,7 +117,7 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
 
 
 	// FragmentPagerAdapter适配器
-	class FPAdapter extends FragmentPagerAdapter {
+	private static class FPAdapter extends FragmentPagerAdapter {
 		private List<Fragment> fragments = new ArrayList<>();
 
 		public FPAdapter(FragmentManager fm) {

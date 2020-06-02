@@ -1,6 +1,8 @@
 package com.example.secondary.ui.activity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -26,14 +28,21 @@ public abstract class BaseActivity extends AppCompatActivity {
 	private TextView mTvTitle;
 
 
-	protected abstract int getLayout();
-
 	@Override
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.setContentView(R.layout.title_root);
-		setContentView(getLayout());
+		setContentView(getView());
 		initToolbar();
+	}
+
+
+
+	protected abstract @LayoutRes int getLayout();
+
+	protected View getView() {
+		View view = View.inflate(this, getLayout(), null);
+		return view;
 	}
 
 	public void setShowProgressBar(boolean b) {
@@ -42,17 +51,12 @@ public abstract class BaseActivity extends AppCompatActivity {
 		}
 	}
 
-
-	@Override
-	public void setContentView(@LayoutRes int layoutResID) {
-		setContentView(View.inflate(this, layoutResID, null));
-	}
-
 	@Override
 	public void setContentView(View view) {
 		mRootLayout = (LinearLayout) findViewById(R.id.root_layout);
 		if (mRootLayout != null) {
-			mRootLayout.addView(view, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+			mRootLayout.addView(view, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+					ViewGroup.LayoutParams.MATCH_PARENT));
 			initToolbar();
 		}
 	}
@@ -102,7 +106,8 @@ public abstract class BaseActivity extends AppCompatActivity {
 		}
 	}
 
-	protected <T extends View> T f(int id) {
+	@SuppressLint("ResourceType")
+	protected <T extends View> T f(@LayoutRes int id) {
 		return (T) findViewById(id);
 	}
 

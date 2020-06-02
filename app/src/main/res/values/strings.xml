@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Secondary</string>
+    <string name="games">游戏</string>
+    <string name="start">开始</string>
+    <string name="end">结束</string>
+    <string name="stop">停止</string>
+
+
+    <string-array name="aaa">
+        <item>马什么梅</item>
+        <item>马东什么</item>
+        <item>什么东梅</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="点击开始，背景变红时点击停止"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="14dp"
+            android:layout_marginLeft="36dp"
+            android:text="正常人的生理反应时间大于100ms"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/BtnStart"
+            android:layout_width="144dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:text="@string/start" />
+
+
+    </LinearLayout>
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每个人的都不一样，反应时间和人的状态和心情有很大的关系。兴奋的时候比沮丧的时候反应快。正常人的反应时间为0.15秒-0.4秒(“飞人”刘翔的反应时间为0.139秒)。" />
+    -->
+</LinearLayout>

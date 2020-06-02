@@ -1,0 +1,37 @@
+一、云
+1、Cloudy多云
+2、Sunny晴
+3、Overcast阴
+
+二、雨
+1. Drizzle毛毛雨
+2. Shower阵雨
+3. Thunder Storm雷雨
+4. Thunder Shower雷阵雨
+5. Light Rain小雨
+6. Moderate rain中雨
+7. Heavy Rain大雨
+
+三、雪
+1. Snow Shower阵雪
+2. Sleet雨夹雪
+3. Hail冰雹
+4. Blizzard大风雪
+5. Snowstorm暴风雪
+6. Light Snow小雪
+7. Moderate Snow中雪
+8. Heavy Snow大雪
+
+四、风
+1. Windy有风
+2. Breeze微风
+3. Gale大风
+4. Typhoon台风
+5. Hurricane飓风
+
+五、其他
+1. Haze霾
+2. Foggy雾
+3. Frosty霜冻
+4. Lightning闪电
+5. Sandstorm沙尘暴

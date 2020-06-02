@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRadioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/rdoBtnMain_01"
+        style="@style/BottomNavigationBar"
+        android:background="@drawable/background_color_select"
+        android:text="暂无"
+        android:textColor="@color/main_text_select" />
+
+    <RadioButton
+        android:id="@+id/rdoBtnMain_02"
+        style="@style/BottomNavigationBar"
+        android:background="@drawable/background_color_select"
+        android:text="暂无"
+        android:textColor="@color/main_text_select" />
+
+    <RadioButton
+        android:id="@+id/rdoBtnMain_03"
+        style="@style/BottomNavigationBar"
+        android:background="@drawable/background_color_select"
+        android:text="工具"
+        android:drawableTop="@android:drawable/ic_dialog_dialer"
+        android:textColor="@color/main_text_select" />
+
+    <RadioButton
+        android:id="@+id/rdoBtnMain_04"
+        style="@style/BottomNavigationBar"
+        android:background="@drawable/background_color_select"
+        android:drawableTop="@android:drawable/star_on"
+        android:text="个人中心"
+        android:textColor="@color/main_text_select" />
+</RadioGroup>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drizzle">毛毛雨</string>
+    <string name="light_rain">小雨</string>
+    <string name="moderate_rain">中雨</string>
+    <string name="heavy_rain">大雨</string>
+    <string name="light_snow">小雪</string>
+    <string name="moderate_snow">中雪</string>
+    <string name="heavy_snow">大雪</string>
+    <string name="thunder">打雷</string>
+    <string name="thundershower">雷阵雨</string>
+    <string name="cloudy">多云</string>
+    <string name="foggy">大雾</string>
+    <string name="sunny">晴</string>
+    <string name="overcast">阴</string>
+
+    <string name="毛毛雨">drizzle</string>
+    <string name="小雨">light_rain</string>
+    <string name="中雨">moderate_rain</string>
+    <string name="大雨">heavy_rain</string>
+    <string name="小雪">light_snow</string>
+    <string name="中雪">moderate_snow</string>
+    <string name="大雪">heavy_snow</string>
+    <string name="打雷">thunder</string>
+    <string name="雷阵雨">thundershower</string>
+    <string name="多云">cloudy</string>
+    <string name="大雾">foggy</string>
+    <string name="晴">sunny</string>
+    <string name="阴">overcast</string>
+
+</resources>

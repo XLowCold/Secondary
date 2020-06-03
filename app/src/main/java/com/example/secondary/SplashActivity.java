@@ -11,6 +11,9 @@ import com.example.secondary.app.App;
 
 import androidx.annotation.Nullable;
 
+/**
+ * @author qaq
+ */
 public class SplashActivity extends Activity {
 	@Override
 	public void onCreate(@Nullable Bundle savedInstanceState) {
